@@ -1,25 +1,96 @@
+#importing pyttsx3 module in order to use it's speak function. 
 import pyttsx3
+#importing os module in order to use it's system function.
 import os
 
+#calling the speak function belongs to pyttsx3 module for greeting.
+pyttsx3.speak("Welcome to my tools. I am here to help you for your requirements")
 
-pyttsx3.speak("Welcome to my tools.")
-
-#print("\n1: launch the chrome browser.")
-#print("2: opening sublime text editor.")
-#print("3: opening Github Desktop.\n")
-
-#pyttsx3.speak("chat with me with your requirement")
+#while loop will keep on fullfilling your requirements until you explicitly stop it.
 while True:
 
-    print("Chat with me whatever is your requirements: ",end='')
+    #This will print the requirement message
+    print("Please provide me your requirements: ",end='')
 
+    #input function will be storing the user input into i variable.
     i=input()
 
-    if ("launch" in i) and ("chrome" in i):
-        pyttsx3.speak("Please wait while we are launching Chrome browser."); os.system("Google\ Chrome")
-    elif (("run" in i) or ("execute" in i)) and (("github" in i) or ("open" in i)):
-        pyttsx3.speak("Please wait while we are opening the Github Desktop for you.");os.system("GitHub\ Desktop")
-    elif ("exit" in i) or ("quit" in i):
+
+    #for fetching the ipaddress of Google web servers
+    if (("tell" in i) or ("show" in i) or ("update" in i) or ("check" in i) or ("verify" in i)) and (("google ipaddress" in i) or (("ip" in i) and ("google" in i)) or (("ip" in i) and ("google's" in i)) or (("ipaddress" in i) and ("google's" in i))):
+        pyttsx3.speak("Here are the Google's Ipaddress details") 
+        os.system("host www.google.com")
+        print()
+
+    #for displaying the docker version installed on the system
+    elif (("tell" in i) or ("check" in i) or ("update" in i) or ("verify" in i) or ("access" in i)) and (("internet" in i) or ("net" in i) or (("net" in i) and ("working" in i)) or (("internet" in i) and ("working" in i))):
+        pyttsx3.speak("Here is the ping output to confirm about the internet connection.")
+        os.system("ping -c 5 www.google.com") 
+        print()
+
+    #for checking the internet connectivity
+    elif (("check" in i) or ("show" in i) or ("update" in i) or ("run" in i)) and (("docker version" in i) or ("container engine version" in i) or (("docker" in i) and ("version" in i))):
+        pyttsx3.speak("Here is the information about the installed Docker version on your machine.")
+        os.system("Docker version") 
+        print()
+
+    #for launching the chrome browser
+    elif (("launch" in i) or ("open" in i) or ("run" in i) or ("start" in i)) and (("chrome" in i) or ("googlechrome" in i)):
+        pyttsx3.speak("Please wait, while we are launching the Chrome browser for you.") 
+        os.system("Google\ Chrome")
+
+    #for launching the firefox browser
+    elif (("launch" in i) or ("open" in i) or ("run" in i) or ("start" in i)) and (("firefox" in i) or ("mozillafirefox" in i)):
+        pyttsx3.speak("Please wait, while we are launching the Chrome browser for you.")
+        os.system("Firefox")
+
+    #for starting the github Desktop application
+    elif (("run" in i) or ("launch" in i) or ("open" in i)or ("start" in i)) and (("github" in i) or ("githubdesktop" in i)):
+        pyttsx3.speak("Please wait while we are opening the Github Desktop for you.")
+        os.system("GitHub\ Desktop")
+    
+    #for starting the bluejeans application
+    elif (("open" in i) or ("run" in i) or ("start" in i) or ("launch" in i)) and (("bluejeans" in i) or (("blue" in i) and ("jeans" in i))):
+        pyttsx3.speak("Please wait while we are starting the Bluejeans for you.")
+        os.system("bluejeans")
+    
+    #for opening the slack channel
+    elif (("open" in i) or ("run" in i) or ("start" in i) or ("launch" in i)) and (("slack" in i) or ("slackchat" in i) or ("chatbox" in i) or ("chat box" in i) or ("slackchannel" in i) or ("chat channel" in i) or ("chat app" in i)):
+        pyttsx3.speak("Please wait while we are starting the Slack chat for you.")
+        os.system("Slack")
+
+    #for starting the Microsoft PowerPoint
+    elif (("open" in i) or ("run" in i) or ("start" in i) or ("launch" in i)) and (("powerpoint" in i) or ("microsoftpowerpoint" in i) or ("ppt" in i) or ("presentation" in i)):
+        pyttsx3.speak("Please wait while we are launching a powerpoint Presentation for you.")
+        os.system("Microsoft\ PowerPoint")
+
+    #for opening the Microsoft Excel
+    elif (("open" in i) or ("run" in i) or ("start" in i) or ("launch" in i)) and (("excel" in i) or ("microsoftexcel" in i) or ("excelsheet" in i)):
+        pyttsx3.speak("Please wait while we are launching a Excel sheet for you.")
+        os.system("Microsoft\ Excel")
+
+    #for starting the Outlook
+    elif (("open" in i) or ("run" in i) or ("start" in i) or ("launch" in i)) and (("outlook" in i) or ("mailbox" in i) or ("emailbox" in i) or ("microsoftoutlook" in i)):
+        pyttsx3.speak("Please wait while we are opening your mailbox.")
+        os.system("Microsoft\ Outlook")
+    
+    #for launching the Microsoft Word.
+    elif (("open" in i) or ("run" in i) or ("start" in i) or ("launch" in i)) and (("wordpad" in i) or ("microsoftword" in i) or ("microsoft word" in i) or ("word file" in i)):
+        pyttsx3.speak("Please wait while we are launching a Word file for you.")
+        os.system("Microsoft\ Word")
+
+    #for launching the Movie Player
+    elif (("open" in i) or ("run" in i) or ("start" in i) or ("launch" in i)) and (("imovie" in i) or ("movie" in i)):
+        pyttsx3.speak("Please wait while we are starting the movie player for you.")
+        os.system("iMovie")
+
+    #Asking for feedback and breaking the while loop
+    elif ("exit" in i) or ("quit" in i) or ("shutdown" in i) or ("close" in i) or ("kill" in i) or ("stop" in i):
+        pyttsx3.speak("Sure. I hope, I was able to fullfill your requirements.")
+        feedback=input("How much will you rate this program out of 5? ")
+        pyttsx3.speak("Thank You for your valueable feedback. Visit Again!")
         break
+    
+    #if the respective program is unavailable in the system.
     else:
-        print("don't support.")
+        print("Sorry! I don't have such application in my system.\n")
