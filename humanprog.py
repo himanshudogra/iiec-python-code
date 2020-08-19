@@ -1,4 +1,4 @@
-#This is for MacOS only as for other OS the system commands may differ.
+#This is for MacOS only as for other OS the system application commands like: chrome, firefox, iMovie may differ.
 
 #importing pyttsx3 module in order to use it's speak function. 
 import pyttsx3
