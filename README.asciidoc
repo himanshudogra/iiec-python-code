@@ -264,4 +264,19 @@ Please provide me your requirements: open wordpad for me
 2020-08-19 21:45:33.561 Microsoft Word[66247:16291698] CoreText note: Client requested name ".SFNS-Regular", it will get Times-Roman rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
 Microsoft Word has started successfully.
 ```
+==== Action to Stop the Program
+
+```
+Please provide me your requirements: please quit yourself
+<Program will speak, Sure. I hope, I was able to fullfill your requirements.>
+How much will you rate this program out of 5? 5
+<Program will speak again, Thank You for your valueable feedback. Visit Again!>
+(base) ~
+```
+==== None of the requirements match case
+
+```
+Please provide me your requirements: can you open spyderoak for me
+Sorry! I don't have such application in my system.
+```
 *Note*: All the above requirements were part of the same loop. 
