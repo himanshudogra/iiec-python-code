@@ -67,5 +67,85 @@ round-trip min/avg/max/stddev = 15.095/17.750/21.330/2.860 ms
 ```
 Please provide me your requirements: can you open the chrome for me
 Opening in existing browser session.
+chrome has launched successfully.
 ```
+==== Requirement 5: launching github desktop application
 
+```
+Please provide me your requirements: launch github
+github has successfully started.
+```
+==== Requirement 6: Info about the docker version installed 
+
+```
+Please provide me your requirements: tell docker version
+Client: Docker Engine - Community
+ Version:           19.03.5
+ API version:       1.40
+ Go version:        go1.12.12
+ Git commit:        633a0ea
+ Built:             Wed Nov 13 07:22:34 2019
+ OS/Arch:           darwin/amd64
+ Experimental:      false
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+```
+==== Requirement 7: Launching the firefox
+
+```
+Please provide me your requirements: launch firefox for me
+firefox has launched successfully.
+```
+==== Requirement 8: Launching bluejeans meeting
+
+```
+Please provide me your requirements: pls open bluejeans for me
+2020-08-19 18:37:48.200 [16183035] -[AppDelegate applicationDidFinishLaunching(_:)](85) [info] RestartedAfterUpdate: false
+2020-08-19 18:37:48.204 BlueJeans[51369:16183194] [Crashlytics:Crash] WARNING: CLSLog has been used before (or concurrently with) Crashlytics initialization and cannot be recorded. The message was: 
+2020-08-19 18:37:48.200 [16183035] -[AppDelegate applicationDidFinishLaunching(_:)](85) [info] RestartedAfterUpdate: false
+2020-08-19 18:37:48.250 BlueJeans[51369:16183169] New Log name requested!
+2020-08-19 18:37:48.226 [16183035] -[EncryptedUserDefaultsTokenPersistence migrateUnencryptedToken()](115) [info] No token to migrate
+2020-08-19 18:37:48.304 BlueJeans[51369:16183169] [Crashlytics:Crash] WARNING: CLSLog has been used before (or concurrently with) Crashlytics initialization and cannot be recorded. The message was: 
+2020-08-19 18:37:48.226 [16183035] -[EncryptedUserDefaultsTokenPersistence migrateUnencryptedToken()](115) [info] No token to migrate
+2020-08-19 18:37:48.226 [16183035] -[UserSession loadFromUserDefaults()](130) [info] Loading complete, signed in: false
+2020-08-19 18:37:48.304 BlueJeans[51369:16183217] [Crashlytics:Crash] WARNING: CLSLog has been used before (or concurrently with) Crashlytics initialization and cannot be recorded. The message was: 
+2020-08-19 18:37:48.226 [16183035] -[UserSession loadFromUserDefaults()](130) [info] Loading complete, signed in: false
+2020-08-19 18:37:48.232 [16183035] -[AppOwnerManager logAppOwner()](150) [info] App owner: enterprise: 1354, cluster: Prod, source: lastLoggedInUser
+2020-08-19 18:37:48.305 BlueJeans[51369:16183166] [Crashlytics:Crash] WARNING: CLSLog has been used before (or concurrently with) Crashlytics initialization and cannot be recorded. The message was: 
+2020-08-19 18:37:48.232 [16183035] -[AppOwnerManager logAppOwner()](150) [info] App owner: enterprise: 1354, cluster: Prod, source: lastLoggedInUser
+2020-08-19 18:37:48.232 [16183035] -[MachinePerformanceService init(callAPIWrapper:)](46) [info] Active machine performance category four
+2020-08-19 18:37:48.306 BlueJeans[51369:16183193] [Crashlytics:Crash] WARNING: CLSLog has been used before (or concurrently with) Crashlytics initialization and cannot be recorded. The message was: 
+2020-08-19 18:37:48.232 [16183035] -[MachinePerformanceService init(callAPIWrapper:)](46) [info] Active machine performance category four
+2020-08-19 18:37:48.370 [16183035] -[CustomBrandingManager updateCustomBranding()](115) [info] App owner source not of high confidence, removing custom branding
+2020-08-19 18:37:48.370 BlueJeans[51369:16183166] [Crashlytics:Crash] WARNING: CLSLog has been used before (or concurrently with) Crashlytics initialization and cannot be recorded. The message was: 
+2020-08-19 18:37:48.370 [16183035] -[CustomBrandingManager updateCustomBranding()](115) [info] App owner source not of high confidence, removing custom branding
+CoreData: annotation:  Failed to load optimized model at path '/Applications/BlueJeans.app/Contents/Frameworks/BlueCommon.framework/Versions/A/Resources/BlueCommonModel.momd/BlueCommonModel_2.13.0.omo'
+CoreData: fault: One or more models in this application are using transformable properties with transformer names that are either unset, or set to NSKeyedUnarchiveFromDataTransformerName. Please switch to using "NSSecureUnarchiveFromData" or a subclass of NSSecureUnarchiveFromDataTransformer instead. At some point, Core Data will default to using "NSSecureUnarchiveFromData" when nil is specified, and transformable properties containing classes that do not support NSSecureCoding will become unreadable.
+CoreData: warning: Property 'attendees' on Entity 'PersistedMeeting' is using nil or an insecure NSValueTransformer.  Please switch to using "NSSecureUnarchiveFromData" or a subclass of NSSecureUnarchiveFromDataTransformer instead.
+2020-08-19 18:37:48.397 [16183035] -[RecentMeetingManager updateRecentMeeting(with:)](103) [info] Loaded 0 recent meetings.
+2020-08-19 18:37:48.397 BlueJeans[51369:16183195] [Crashlytics:Crash] WARNING: CLSLog has been used before (or concurrently with) Crashlytics initialization and cannot be recorded. The message was: 
+2020-08-19 18:37:48.397 [16183035] -[RecentMeetingManager updateRecentMeeting(with:)](103) [info] Loaded 0 recent meetings.
+2020-08-19 18:37:48.401 BlueJeans[51369:16183035] [Crashlytics] Version 3.10.7 (130)
+2020-08-19 18:37:48.414 [16183035] -[EncryptedUserDefaultsTokenPersistence migrateUnencryptedToken()](115) [info] No token to migrate
+2020-08-19 18:37:48.414 [16183035] -[EncryptedUserDefaultsTokenPersistence migrateUnencryptedToken()](115) [info] No token to migrate
+2020-08-19 18:37:48.415 [16183035] -[BlueO365AuthManager revokeO365Auth()](169) [info] Revoked O365 auth
+2020-08-19 18:37:48.440 [16183035] -[UpcomingMeetingManager loadAndFilterPersistedMeetings()](325) [info] Loaded 0 persisted meetings.
+2020-08-19 18:37:48.440 [16183035] -[UpcomingMeetingManager deleteMeetings()](191) [info] Deleting all cached upcoming meetings.
+2020-08-19 18:37:48.677 [16183035] -[VideoViewManagerWrapper init(videoViewManager:)](64) [info] Number of active video streams: 0
+2020-08-19 18:37:48.681 [16183035] -[RefreshingUpcomingMeetingManager startUpdates()](72) [info] Starting upcoming meeting updates
+2020-08-19 18:37:48.687 [16183035] -[UpdateManager removeUpdateCache()](341) [info] Error removing sparkle cache folder Error Domain=NSCocoaErrorDomain Code=260 "The file “Sparkle” couldn’t be opened because there is no such file." UserInfo={NSURL=file:///Users/hdogra/Library/Caches/com.bluejeansnet.Blue/Sparkle, NSFilePath=/Users/hdogra/Library/Caches/com.bluejeansnet.Blue/Sparkle, NSUnderlyingError=0x7fdf6a260050 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+2020-08-19 18:37:48.688 [16183035] -[AppDelegate applicationDidFinishLaunching(_:)](158) [info] ---Furiosa Version: 2.22.0.348---
+2020-08-19 18:37:48.703 [16183035] -[AVDeviceManager devicesChanged(ofType:)](177) [info] Available microphones have changed. Added: [], removed: []
+2020-08-19 18:37:48.703 [16183035] -[AVDeviceManager autoSelectDevice(ofType:currentDevice:addedDevices:removedDevices:)](223) [info] No microphone currently selected, selecting alternate device
+2020-08-19 18:37:48.703 [16183035] -[DevicePreferenceManager deviceToAutoSelectInResponseToCurrentDeviceNoLongerValid(ofType:)](285) [info] Device to maybe auto-select: none (no non-blacklisted devices)
+2020-08-19 18:37:48.703 [16183035] -[DevicePreferenceManager deviceToAutoSelectInResponseToCurrentDeviceNoLongerValid(ofType:)](289) [info] Best microphone device to auto-select would be: none
+2020-08-19 18:37:48.703 [16183035] -[AVDeviceManager autoSelectDevice(ofType:currentDevice:addedDevices:removedDevices:)](232) [warn] Alternate microphone not available
+2020-08-19 18:37:48.706 [16183035] -[AVDeviceManager devicesChanged(ofType:)](177) [info] Available speakers have changed. Added: ["MacBook Pro Speakers (MacBook Pro Speakers"], removed: []
+2020-08-19 18:37:48.706 [16183035] -[DevicePreferenceManager deviceToAutoSelectInResponseToAddition(ofDevice:ofType:)](220) [info] MacBook Pro Speakers (Internal Speakers) is already in the priority list, using highest priority device MacBook Pro Speakers (Internal Speakers)
+2020-08-19 18:37:48.706 [16183035] -[DevicePreferenceManager deviceToAutoSelectInResponseToAddition(ofDevice:ofType:)](242) [info] Best speaker device to auto-select after MacBook Pro Speakers (Internal Speakers) was added would be: MacBook Pro Speakers (Internal Speakers)
+2020-08-19 18:37:48.706 [16183035] -[AVDeviceManager autoSelectDevice(ofType:currentDevice:addedDevices:removedDevices:)](216) [info] Auto-selected newly plugged in speaker
+2020-08-19 18:37:48.706 [16183035] -[AVDeviceManager doSelect(ofType:device:justPluggedIn:)](243) [info] Selecting speaker: MacBook Pro Speakers (MacBook Pro Speakers
+2020-08-19 18:37:48.708 [16183035] -[UpcomingMeetingManager deleteMeetings()](195) [info] All cached upcoming meetings deleted.
+BlueJeans has successfully opened.
+```
+==== Requirement 9: 
+*Note*: All the above requirements were part of the same loop. 
