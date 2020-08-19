@@ -14,7 +14,7 @@ endif::[]
 
 toc::[]
 
-== https://github.com/himanshudogra/iiec-python-code/blob/master/humanprog.py [human program]
+== https://github.com/himanshudogra/iiec-python-code/blob/master/humanprog.py[human program]
 
 This is for MacOS only as for other OS the system application commands like: chrome, firefox, iMovie may differ.
 
