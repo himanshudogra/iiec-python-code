@@ -49,7 +49,7 @@ while True:
 
     #for launching the firefox browser
     elif (("launch" in i) or ("open" in i) or ("run" in i) or ("start" in i)) and (("firefox" in i) or ("mozillafirefox" in i)):
-        pyttsx3.speak("Please wait, while we are launching the Chrome browser for you.")
+        pyttsx3.speak("Please wait, while we are launching the firefox browser for you.")
         os.system("Firefox")
 
     #for starting the github Desktop application
