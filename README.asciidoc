@@ -224,7 +224,7 @@ Warning: Re-registering an existing pixelformat.
 2020-08-19 21:20:27.759 iMovie[62447:16260921] image for font Beirut does not have expected image attributes
 iMovie has started successfully.
 ```
-==== Requirement 11: launching the excel sheet.
+==== Requirement 12: launching the excel sheet.
 
 ```
 Please provide me your requirements: launch excel
@@ -236,7 +236,7 @@ Please provide me your requirements: launch excel
 2020-08-19 21:42:34.913 Microsoft Excel[65729:16287611] Stream 0x7fed874bd030 is sending an event before being opened
 Microsoft Excel has started successfully.
 ```
-==== Requirement 12: launching the outlook mailbox
+==== Requirement 13: launching the outlook mailbox
 
 ```
 Please provide me your requirements: open outlook for me
@@ -250,7 +250,7 @@ Please provide me your requirements: open outlook for me
 2020-08-19 21:44:17.266 Microsoft Outlook[65987:16289982] Stream 0x7feff2a9a060 is sending an event before being opened
 Microsoft Outlook has started successfully.
 ```
-==== Requirement 13: launching the Microsoft Word
+==== Requirement 14: launching the Microsoft Word
 
 ```
 Please provide me your requirements: open wordpad for me
