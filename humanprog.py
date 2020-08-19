@@ -1,3 +1,5 @@
+#This is for MacOS only as for other OS the system commands may differ.
+
 #importing pyttsx3 module in order to use it's speak function. 
 import pyttsx3
 #importing os module in order to use it's system function.
