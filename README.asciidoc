@@ -38,15 +38,18 @@ This section contains the main program body.
 (base) ~python3.8 humanprog.py 
 Please provide me your requirements: can you please tell the today's date
 08/19/20
-
-===== Requirement 2: Confirm the Google's IPs.
-
+```
+==== Requirement 2: Confirm the Google's IPs.
+ 
+```
 Please provide me your requirements: tell me google ip
 www.google.com has address 172.217.166.4
 www.google.com has IPv6 address 2404:6800:4002:80c::2004
+```
 
 ==== Requirement 3: Internet connection check
 
+```
 Please provide me your requirements: check the internet connection
 PING www.google.com (172.217.166.4): 56 data bytes
 64 bytes from 172.217.166.4: icmp_seq=0 ttl=118 time=15.095 ms
@@ -58,6 +61,11 @@ PING www.google.com (172.217.166.4): 56 data bytes
 --- www.google.com ping statistics ---
 5 packets transmitted, 5 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 15.095/17.750/21.330/2.860 ms
+```
+==== Requirement 4: Open the chrome browser
 
+```
 Please provide me your requirements: can you open the chrome for me
 Opening in existing browser session.
+```
+
