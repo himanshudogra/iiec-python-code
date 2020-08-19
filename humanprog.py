@@ -34,6 +34,12 @@ while True:
         os.system("Docker version") 
         print()
 
+    #for checking the today's date
+    elif (("check" in i) or ("show" in i) or ("update" in i) or ("is" in i) or ("tell" in i)) and ((("date" in i) and ("today" in i)) or (("today's" in i) and ("date" in i))):
+        pyttsx3.speak("Here's displaying the today's date")
+        os.system("date +%D") 
+        print()
+
     #for launching the chrome browser
     elif (("launch" in i) or ("open" in i) or ("run" in i) or ("start" in i)) and (("chrome" in i) or ("googlechrome" in i)):
         pyttsx3.speak("Please wait, while we are launching the Chrome browser for you.") 
