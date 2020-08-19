@@ -72,6 +72,7 @@ round-trip min/avg/max/stddev = 15.095/17.750/21.330/2.860 ms
 
 ```
 Please provide me your requirements: can you open the chrome for me
+<Program will say, Please wait, while we are launching the Chrome browser for you.>
 Opening in existing browser session.
 chrome has launched successfully.
 ```
@@ -167,5 +168,60 @@ Please provide me your requirements: open ppt for me
 2020-08-19 18:55:01.857 Microsoft PowerPoint[54017:16203232] Stream 0x7fcb3cf81830 is sending an event before being opened
 
 Microsoft PowerPoint has started successfully.
+```
+==== Requirement 10: launching the Slack Chat.
+
+```
+Please provide me your requirements: can you launch slack chat for me.
+<Program will speak, Please wait while we are starting the Slack chat for you.>
+Slack Chatbox has started successfully.
+```
+
+==== Requirement 11: launching the movie player
+
+```
+Please provide me your requirements: launch movie player  
+<program will speak, Please wait while we are starting the movie player for you.>
+2020-08-19 21:20:22.214 iMovie[62447:16260626] PGLMasterCGLPixelFormat(): Framebuffer is 8 bit
+2020-08-19 21:20:22.222 iMovie[62447:16260626] PGLMasterCGLPixelFormat(): Successfully allocated an 8 bit pixel format
+2020-08-19 21:20:22.222 iMovie[62447:16260626] PGLMasterCGLPixelFormat() -- CGL reports there are 1 virtual screens for this CGLChoosePixelFormat
+Warning: Re-registering an existing pixelformat.
+Warning: Re-registering an existing pixelformat.
+Warning: Re-registering an existing pixelformat.
+2020-08-19 21:20:27.468 iMovie[62447:16260921] image for font Al Bayan does not have expected image attributes
+2020-08-19 21:20:27.473 iMovie[62447:16260921] image for font Al Nile does not have expected image attributes
+2020-08-19 21:20:27.478 iMovie[62447:16260921] image for font Al Tarikh does not have expected image attributes
+2020-08-19 21:20:27.490 iMovie[62447:16260921] image for font American Typewriter does not have expected image attributes
+2020-08-19 21:20:27.495 iMovie[62447:16260921] image for font Andale Mono does not have expected image attributes
+2020-08-19 21:20:27.503 iMovie[62447:16260921] image for font Apple Braille does not have expected image attributes
+2020-08-19 21:20:27.511 iMovie[62447:16260921] image for font Apple Chancery does not have expected image attributes
+2020-08-19 21:20:27.516 iMovie[62447:16260921] image for font Apple Color Emoji does not have expected image attributes
+2020-08-19 21:20:27.527 iMovie[62447:16260921] image for font Apple SD Gothic Neo does not have expected image attributes
+2020-08-19 21:20:27.532 iMovie[62447:16260921] image for font Apple Symbols does not have expected image attributes
+2020-08-19 21:20:27.541 iMovie[62447:16260921] image for font AppleGothic does not have expected image attributes
+2020-08-19 21:20:27.548 iMovie[62447:16260921] image for font AppleMyungjo does not have expected image attributes
+2020-08-19 21:20:27.553 iMovie[62447:16260921] image for font Arial does not have expected image attributes
+2020-08-19 21:20:27.564 iMovie[62447:16260921] image for font Arial Black does not have expected image attributes
+2020-08-19 21:20:27.570 iMovie[62447:16260921] image for font Arial Hebrew does not have expected image attributes
+2020-08-19 21:20:27.575 iMovie[62447:16260921] image for font Arial Hebrew Scholar does not have expected image attributes
+2020-08-19 21:20:27.580 iMovie[62447:16260921] image for font Arial Narrow does not have expected image attributes
+2020-08-19 21:20:27.585 iMovie[62447:16260921] image for font Arial Rounded MT Bold does not have expected image attributes
+2020-08-19 21:20:27.592 iMovie[62447:16260921] image for font Arial Unicode MS does not have expected image attributes
+2020-08-19 21:20:27.603 iMovie[62447:16260921] image for font Avenir does not have expected image attributes
+2020-08-19 21:20:27.611 iMovie[62447:16260921] image for font Avenir Next does not have expected image attributes
+2020-08-19 21:20:27.638 iMovie[62447:16260921] image for font Avenir Next Condensed does not have expected image attributes
+2020-08-19 21:20:27.666 iMovie[62447:16260921] image for font Aviano Sans does not have expected image attributes
+2020-08-19 21:20:27.674 iMovie[62447:16260921] image for font Ayuthaya does not have expected image attributes
+2020-08-19 21:20:27.677 iMovie[62447:16260921] image for font Baghdad does not have expected image attributes
+2020-08-19 21:20:27.683 iMovie[62447:16260921] image for font Banco does not have expected image attributes
+2020-08-19 21:20:27.693 iMovie[62447:16260921] image for font Bangla MN does not have expected image attributes
+2020-08-19 21:20:27.704 iMovie[62447:16260921] image for font Bangla Sangam MN does not have expected image attributes
+2020-08-19 21:20:27.712 iMovie[62447:16260921] image for font Bank Gothic does not have expected image attributes
+2020-08-19 21:20:27.722 iMovie[62447:16260921] image for font Basic Commercial does not have expected image attributes
+2020-08-19 21:20:27.735 iMovie[62447:16260921] image for font Baskerville does not have expected image attributes
+2020-08-19 21:20:27.744 iMovie[62447:16260921] image for font Beaufort Pro does not have expected image attributes
+2020-08-19 21:20:27.752 iMovie[62447:16260921] image for font Bebas Neue does not have expected image attributes
+2020-08-19 21:20:27.759 iMovie[62447:16260921] image for font Beirut does not have expected image attributes
+iMovie has started successfully.
 ```
 *Note*: All the above requirements were part of the same loop. 
