@@ -10,6 +10,25 @@ endif::[]
 :toc: macro
 :toc-title: pass:[<b>Table of Contents</b>]
 // end header
-= openshift.cluster.ssl.renewal.status failed
+= iiec.python.code.challengs
 
 toc::[]
+
+== https://github.com/himanshudogra/iiec-python-code/blob/master/humanprog.py [human program]
+
+This is for MacOS only as for other OS the system application commands like: chrome, firefox, iMovie may differ.
+
+=== import modules
+
+The first section contains os and pyttsx3 module which will be used to call os.system and pyttsx3.speak functions.
+
+```
+import os
+import pyttsx3
+```
+
+=== main body
+
+This section contains the main program body. 
+
+=== Test Case
