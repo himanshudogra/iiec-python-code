@@ -1,0 +1,42 @@
+-----------------------------------Student Details-----------------------------------<br /><br />
+Please provide your details below- <br /><br />
+
+<form action="http://192.168.99.102/cgi-bin/iiec.py">
+Name: <input name="name" type="text"/>
+<br><br>
+Phone No: <input name="phone" type="text">
+<br>
+
+<p>Select Your Gender:</p>
+
+<div>
+	<input id="male" name="g" type="radio" value="male"/>
+	<label for="male">Male</label>
+</div>
+
+<div>
+	<input id="female" name="g" type="radio" value="female"/>
+	<label for="female">Female</label>
+</div>
+
+<br>
+
+<fieldset>
+	<legend> Choose your interest</legend>
+	<div>
+		<input id="Python" name="c" type="checkbox" value="python"/>
+		<label for="python">python</label>
+	</div>	
+	<div>
+		<input id="Golang" name="c" type="checkbox" value="golang"/>
+		<label for="golang">Golang</label>
+	</div>
+	<div>
+		<input id="ruby" name="c" type="checkbox" value="ruby"/>
+		<label for="ruby">Ruby</label>
+	</div>
+</fieldset>
+
+<br>
+<input type="submit" />
+</form>
