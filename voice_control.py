@@ -123,7 +123,7 @@ while True:
     #if the respective program is unavailable in the system.
     else:
         print("We don't support it.")
-        break
+        continue
         
 
 
