@@ -2,7 +2,7 @@ import subprocess as sp
 
 input=input("Enter the container Name: ")
 
-cmd=sp.getstatusoutput("docker run -d -it --name {} ubuntu:latest".format(input))
+cmd=sp.getstatusoutput("sudo docker run -d -it --name {} ubuntu:latest".format(input))
 
 status=cmd[0]
 output=cmd[1]
