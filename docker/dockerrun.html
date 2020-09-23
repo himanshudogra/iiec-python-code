@@ -1,5 +1,12 @@
 <form action="http://192.168.99.103/cgi-bin/dockerrun.py">
-	Enter your OS name <input type='text' name='x'/>
+	Enter the OS name <input type='text' name='x'/>
+	<br />
+	<label for="OS Images">Choose an Image:</label>
+	<select id="images" name="i">
+		<option value="centos:7">centos:7</option>
+		<option value="ubuntu:latest">ubuntu:latest</option>
+	</select>
+	<br />
 	<input type="submit"/>
 
 </form>
