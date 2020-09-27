@@ -3,15 +3,16 @@
 
 <h1 style="text-align:center;background-color:SkyBlue">Menu Driven program</h1>
 
-<form action="http://192.168.99.103/cgi-bin/menudriven">
+<form action="http://192.168.1.67/cgi-bin/menudriven">
 	<label for "requirement">Please provide your requirement</label>
 	<select id="req" name="req">
 		<option value="display today's date">What is today's date</option>
 		<option value="To check internet connectivity">Please check the internet connectivity</option>
 		<option value="show me the docker version">Kindly show me docker version</option>
 		<option value="tell google's ip">What is the google's Ip address</option>
+		<option value="show total containers available">Please list out the containers running on the server</option>
 	</select>
-
+<br><br>
 <input type='submit'/>
 </form>
 <p>Click the "Submit" button and your request will be transferred to the respective server.</p>
