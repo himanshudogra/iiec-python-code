@@ -23,6 +23,11 @@ elif (("tell" in req) or ("check" in req) or ("update" in req) or ("verify" in r
 
     if status == 0:
         print("Your system is connected to internet.")
+        new_line="\n"
+        new_line=new_line.replace("\n","<br />")
+        print(new_line); print(new_line)
+        output=output.replace("\n","<br />")
+        print(output)
     else:
         print("internet is not connected, Error: ",output)
 
@@ -33,7 +38,8 @@ elif (("check" in req) or ("show" in req) or ("update" in req) or ("run" in req)
     output=docker_version[1]
 
     if status == 0:
-        print(docker_version[1])
+        output=output.replace("\n","<br />")
+        print(output)
     else:
         print("An Error reported while fetching the docker version",docker_version[1])
 
@@ -44,8 +50,32 @@ elif (("tell" in req) or ("show" in req) or ("update" in req) or ("check" in req
     output=google_ip[1]
 
     if status == 0:
-        print("Here are the Google's Ipaddress details")
-        print()
+        print("Below are the Google's Ipaddress details:")
+        new_line="\n"
+        new_line=new_line.replace("\n","<br />")
+        print(new_line); print(new_line)
+        output=output.replace("\n","<br />")
         print(output)
+
     else:
         print("You don't have internet connectivity. Please check your internet connection first before using this.")
+
+#for fetching the container details
+elif (("tell" in req) or ("show" in req) or ("update" in req) or ("check" in req) or ("verify" in req)) and ((("containers" in req) and ("total" in req) and ("present" in req)) or (("containers" in req) and ("total" in req) and ("available" in req))):
+    container_list=sb.getstatusoutput("sudo docker ps -aq")
+    output=container_list[1]
+    status=container_list[0]
+
+    if status == 0:
+        print("Here is the list of containers available:")
+        new_line="\n"
+        new_line=new_line.replace("\n","<br />")
+        print(new_line); print(new_line)
+        output=output.replace("\n","<br />")
+        print(output)
+    else:
+        print("Error Reported:")
+        new_line="\n"
+        new_line=new_line.replace("\n","<br />")
+        print(new_line); print(new_line)
+        print(output)
