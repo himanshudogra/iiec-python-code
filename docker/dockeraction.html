@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Action on Container</h1>
+
+<form action="http://192.168.99.103/cgi-bin/dockeraction.py">
+
+Container Name <input type="text" name="container_name"/><br><br>
+
+Action
+	<input type="radio" id="start" name="x" value="start"/>
+	<label for="start">start</label>
+	<input type="radio" id="stop" name="x" value="stop"/>
+	<label for="stop">stop</label><br><br>
+	<input type="submit" value="Submit">
+</form>
+<br>
+<p>Click the "Submit" button and your request will be transferred to the respective server.</p>
+</body>
+</html>
